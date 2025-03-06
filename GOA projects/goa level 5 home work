@@ -1,0 +1,24 @@
+1)paroli = "my_password"
+if input("პაროლი: ") == paroli:
+    print("access granted")
+else:
+    print("access denied")
+python
+2)
+
+if int(input("რიცხვი: ")) % 2 == 0:
+    print("ლუწია")
+else:
+    print("კენტია")
+3)python
+
+numbers = [float(input("რიცხვი: ")) for _ in range(5)]
+print(sum(numbers) / 5)
+4)python
+
+
+print(float(input("ცელსიუსი: ")) * 9/5 + 32)
+5)
+python
+
+print((float(input("farenhaiti: ")) - 32) * 5/9)
