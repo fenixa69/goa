@@ -1,0 +1,22 @@
+1for სახლი in range(50):
+    print(სახლი)  
+
+
+print(1 > 0 and 8 > 9 or 5 < 2 or 10 >= 10 and 3 > 7)
+
+num = int(input("შეიყვანეთ რიცხვი: "))
+ 
+ 
+ 
+half = num / 2
+double = int(half) * 2
+is_even = (double == num)
+
+if is_even and num > 10:
+    print("True")
+else:
+    print("False")
+
+
+For loop გამოიყენება განმეორებადი ქმედებების შესასრულებლად
+
